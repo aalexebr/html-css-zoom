@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*  DEBUG */
+
+.debug footer{
+    border: 2px dotted lightcoral;
+    height: 50px;
+}
+
+.debug .screen{
+    border: 2px dotted lightgreen;
+    height: 100px;
+
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: grey;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.screen-row{
+    padding: 20px 20px 50px 20px;
+    margin: -5px;
+}
+
+.screen{
+    width: calc((100% / 7) - 10px);
+    margin: 10px 5px;
+}
+
+/*   FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #222222;
+}
